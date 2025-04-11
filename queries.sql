@@ -42,7 +42,7 @@ SELECT * FROM detalleVenta
 WHERE fecha BETWEEN '2025-03-01' AND '2025-04-01';
 
 
--- Rango de un mes
+-- Identificar clientes que no han comprado en los últimos 6 meses.
 SELECT c.nombre, c.doc
 FROM cliente c
 WHERE NOT EXISTS (

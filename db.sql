@@ -1,5 +1,4 @@
 
-CREATE DATABASE examenCampusPoveda;
 
 
 CREATE TABLE ciudad (
