@@ -1,4 +1,7 @@
 
+CREATE DATABASE examenCampusPoveda;
+
+
 CREATE TABLE ciudad (
     idCiudad SERIAL PRIMARY KEY,
     nombre VARCHAR(45)
